@@ -1,0 +1,77 @@
+
+header {
+        position: fixed;
+}
+body {
+        background-image: linear-gradient(rgba(96, 61, 192, 0.4), rgba(96, 61, 192, 0.4)), url(../img/PEXE.JPG);
+        background-size: cover;
+        background-position: top;
+      
+}
+a{
+        text-decoration: none;
+}
+p {
+        font-size: 1.5em;
+        margin: 0 150px 0 150px;
+        padding: 25px;
+        background-color: rgba(255, 255, 255, 0.199);
+}
+p p {   
+        font-weight: bold;
+        text-align: center;        
+}
+header ul li {
+        position: relative;
+}
+/* Menu vertical */
+header ul  {  
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        width: 150px;     
+        font-weight: bold; 
+}
+header ul li a { 
+        display: block;
+        text-decoration: none;
+        color: black;
+        background:  orange;
+        padding: 5px;             
+}
+/* Mantér escondido */
+ul li ul  {
+        display: none;
+/* Para quando for exibido */
+header ul li:hover ul {
+        display: block;
+        position: absolute;
+        left: 149px;
+        top: 0;
+}
+a:hover {
+        box-shadow: 0 3px 10px 0 rgb(15, 0, 0);
+        text-shadow: 0px 0px 5px #fff; 
+        -moz-box-shadow: 0 3px 10px 0 black;
+        -webkit-box-shadow: 0 3px 10px 0 black; 
+}
+h1 {    
+        font-style: italic;
+        margin: -09px -50px 0 150px;
+        text-align: center;      
+        background-color: orange;                  
+}
+footer {
+        margin: 300px -10px -10px -10px;
+        padding: 5px;
+        font-weight: bold;
+        text-align: center;
+        background-color: orange;       
+}
+footer h2 {
+        margin: 0;
+        padding: 5px;
+}
+hr{
+        max-width: 80%;
+}

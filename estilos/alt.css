@@ -1,0 +1,135 @@
+body {
+  background-image: linear-gradient(rgba(96, 61, 192, 0.4), rgba(96, 61, 192, 0.4)), url(../img/PEXE.JPG);
+  background-size: cover;
+  background-position: top;
+  margin: 0 0 0 0;
+}
+header {
+  position: relative;
+  
+}
+nav {
+    background-color: orange;
+    height: 40px;
+}
+/* Menu Horizontal */
+nav ul  {  
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: none;
+  position: fixed;
+  top: 60px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+nav ul li {
+  position: relative;
+}
+/* Itens dentro do menu */
+nav ul li a { 
+  display: flex;
+  text-decoration: none;
+  color: black;
+  background: orange;
+  padding: 5px 5px; 
+  text-align: center;
+  font-weight: bold;
+}
+/* Mantér escondido */
+nav ul li ul {
+  display: none;
+}
+/* Para quando for exibido */
+nav ul li:hover ul {
+  display: block;
+  position: absolute;
+  top: 70px;
+  width: 200px;
+}
+/* Efeito do mouse sobre o item */
+a:hover {
+  box-shadow: 0 3px 10px 0 rgb(15, 0, 0);
+  text-shadow: 0px 0px 5px #fff; 
+  -moz-box-shadow: 0 3px 10px 0 black;
+  -webkit-box-shadow: 0 3px 10px 0 black; 
+}
+h1 {    
+  font-style: italic;
+  margin: 0 -50px 0 -50px;
+  text-align: center;
+  background-color: orange; 
+  text-shadow: 0px 0px 5px #fff;         
+}
+p {
+  font-size: 1.5em;
+  margin: 50px 150px 0 150px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.199);
+  font-weight: bold;
+  text-align: center;
+}
+h2{
+  margin: 50px 150px 0 150px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.199);
+  font-weight: bold;
+  text-align: center;
+}
+h3 {
+  font-size: 20px;
+  margin: 50px 150px 0 150px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.199);
+  font-weight: bold;
+  text-align: center;
+}
+h4 {
+  font-size: 20px;
+  margin: 50px 150px 0 150px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.199);
+  font-weight: bold;
+  text-align: center;
+}
+h5 {
+  font-size: 20px;
+  margin: 50px 150px 0 150px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.199);
+  font-weight: bold;
+  text-align: center;
+}
+/* Janelas spotify */
+iframe {
+  position: relative;
+  margin: 0 0 0 50px;
+  float: left;
+}
+footer {
+  font-weight: bold;
+  margin: 0px 0 0 0;
+  text-align: center;
+  background-color: orange;
+}
+footer h2 {
+  margin: 0;
+  padding: 5px;
+  background-color: orange;
+}
+#Spotify {
+  text-align: center;
+  height: 300px
+}
+a{
+  text-decoration: none;
+}
+hr{
+  max-width: 80%;
+}
+div iframe {
+  display: block;
+  float: none;
+  margin: 0 0 0 350px;
+}
